@@ -1,13 +1,16 @@
+/*This section is an universal selector*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*This is an elemental selector*/
 body {
     background-color: #d9dcd6;
 }
 
+/*This class formats the header by chosing font, font color, background color, and space around text (padding)*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/*This class formats all Heading 1 elements in the header as font size 48 pixels and displays it inline-block.*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*This class formats the text in the Header formated for H1 with the class attribute of .seo and defines the font color*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*This class defines the header division with font, font size, space at top of font (padding-top), and a right margin of 20 pixels. */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/*This class formates the unordered list in the header using bullets points*/
 .header div ul {
     list-style-type: none;
 }
 
+/*This class formates the unordered list items in the header. They have a 25 pixel left margin*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*This formats the anchor tags by defining the font color and removing the underline*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*This class formats the paragraphs to a 16 pixel font size*/
 p {
     font-size: 16px;
 }
 
+/*This class defines the size of the text as well as the margin on the bottom and the background. */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/*This class aligns the text to the left and adds a margin to the right of 25 pixels*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*This class aligns the text to the right and adds a margin to the left of 25 pixels*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*This class formats the content division by defining the width of 75% of the screen view, displays inlihe-block, and margin on the left of 20 pixels*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*This class formats the benefits division by defining the width of 20% of the screen view, adds a padding of 20 pixels, defines a font family to use, a background color and margin on the right of 20 pixels*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +101,64 @@ p {
     background-color: #2589bd;
 }
 
+/*This class formats the benefit-lead division by defining a margin on the bottom of 32 pixels and a font color of white*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*This class formats the benefit-brand division by defining a margin on the bottom of 32 pixels and a font color of white*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*This class formats the benefit-cost division by defining a margin on the bottom of 32 pixels and a font color of white*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*This class formats the h3 elements in the benefit-lead section by defining a margin on the bottom of 10 pixels and aligning the text in the center*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*This class formats the h3 elements in the benefit-brand section by defining a margin on the bottom of 10 pixels and aligning the text in the center*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*This class formats the h3 elements in the benefit-cost section by defining a margin on the bottom of 10 pixels and aligning the text in the center*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*This class formats the images in the benefit-lead section by defining a display of block, a margin of 10 pixels on the top and bottom, and a maximum width of 150 pixels*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*This class formats the images in the benefit-brand section by defining a display of block, a margin of 10 pixels on the top and bottom, and a maximum width of 150 pixels*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*This class formats the images in the benefit-cost section by defining a display of block, a margin of 10 pixels on the top and bottom, and a maximum width of 150 pixels*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*This class formats the search-engine-optimization section by defining a margin on the bottom of 20 pixels, padding of 50 pixels, a height of 300 pixels, a font family, a background color of blue and font color of white*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +168,7 @@ p {
     color: #ffffff;
 }
 
+/*This class formats the online-reputation-management section by defining a margin on the bottom of 20 pixels, padding of 50 pixels, a height of 300 pixels, a font family, a background color of blue and font color of white*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/*This class formats the social-media-marketing section by defining a margin on the bottom of 20 pixels, padding of 50 pixels, a height of 300 pixels, a font family, a background color of blue and font color of white*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +188,40 @@ p {
     color: #ffffff;
 }
 
+/*This class formats the image elements in the search-engine-optimization section by defining a max height of 200 pixels*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/*This class formats the image elements in the online-reputation-management section by defining a max height of 200 pixels*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/*This class formats the image elements in the social-media-marketing section by defining a max height of 200 pixels*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/*This class formats the h2 elements in the search-engine-optimization section by defining a margin on the bottom of 20 pixels and a font size of 36 pixels*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*This class formats the h2 elements in the online-reputation-management section by defining a margin on the bottom of 20 pixels and a font size of 36 pixels*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*This class formats the h2 elements in the social-media-marketing section by defining a margin on the bottom of 20 pixels and a font size of 36 pixels*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*This class formats the footer section by defining a padding of 30 pixels, a font family, and aligns the text in the center*/
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +229,7 @@ p {
     text-align: center;
 }
 
+/*This class formats the h2 elements in the footer section by defining a font size of 20 pixels*/
 .footer h2 {
     font-size: 20px;
 }
